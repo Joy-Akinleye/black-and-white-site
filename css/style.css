@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(/images/lou-batier-5EoWFa_Htdo-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color:white;
+    overflow: hidden;
+}
+/* Homepage */
+.header{
+    padding: 20px;
+}
+.top_nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 200px;
+    /* border: 2px solid white; */
+}
+.logo {
+    width: 100px;
+    height: 80px;
+    padding: 0;
+    border-radius: 200px;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+    gap: 1.6em;
+}
+ul li{
+    list-style: none;
+}
+ul li a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    height: 25px;
+    padding: 3px;
+    font-size: 21px;
+    justify-content: space-around;
+}
+ul li a:hover{
+    background-color: black;
+    border-radius: 5px;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    padding-top: 50px;
+    gap: 0.8em;
+    /* justify-content: center; */
+    height: 500px;
+    /* border: 2px solid red; */
+}
+.text h2{
+    font-size: 60px;
+    font-family: "Times new roman", cursive;
+}
+.text p {
+    font-size: 28px;
+    font-family: "Gabriola, Times, serif;";
+}
+.button{
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: 3px;
+    background-image: linear-gradient(to right, #000000 0%, #434343  51%, #000000  100%);
+    margin: 10px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 10px #eee;
+    border-radius: 5px;
+    display: block;
+}
+.button:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+         
+.btn-grad {
+    background-image: linear-gradient(to right, #000000 0%, #434343  51%, #000000  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
